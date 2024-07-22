@@ -25,25 +25,19 @@ Inspired by [awesome-security](https://github.com/sbilly/awesome-security), [Awe
 
 ## Introduction
 
-First, beginners should look at machine learning tasks and their applications. I wrote a **[machine learning blog](https://github.com/Billy1900/Awesome-Machine-Learning)** including CV (CNN, GAN), RL, GNN, NLP.
+AI applications in cybersecurity can be categorized using Gartner’s PPDR model:
+- Prediction
+- Prevention
+- Detection
+- Response
+- Monitoring
 
-Additionally, developers still need to know more about security/cybersecurity, here is the **[awesome list of security tool and knowledge.](security.md)**
-
-Then, let's turn to AI for cybersecurity.
-
-The first dimension is a goal or a task. According to Gartner’s PPDR model, all security tasks can be divided into five categories:
-- prediction
-- prevention
-- detection
-- response
-- monitoring
-
-The second dimension is a technical layer and the list of layers for this dimension:
-- network (network traffic analysis and intrusion detection)
-- endpoint (anti-malware)
-- application (WAF or database firewalls)
-- user (UBA)
-- process behavior (anti-fraud)
+Additionally, AI applications can be divided by technical layers:
+- Network (network traffic analysis and intrusion detection)
+- Endpoint (anti-malware)
+- Application (WAF or database firewalls)
+- User (UBA)
+- Process behavior (anti-fraud)
 
 ## Using AI for Pentesting
 
@@ -101,33 +95,227 @@ The second dimension is a technical layer and the list of layers for this dimens
 - **Azure Security Center** - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/)
   - Comprehensive security management system for cloud environments. AI and machine learning are used to identify threats and vulnerabilities in real-time.
 
-## Theoretical Resources
+## 2. Network Protection
+Machine learning in network security focuses on Network Traffic Analytics (NTA) to analyze traffic and detect anomalies and attacks.
 
-### Research Papers
-- **AI for Cybersecurity: A Survey** - [AI Cybersecurity Survey](https://arxiv.org/abs/1901.08854)
-  - A comprehensive survey of AI applications in cybersecurity. This paper reviews various AI techniques and their effectiveness in different cybersecurity domains.
-- **Machine Learning Techniques for Intrusion Detection** - [Intrusion Detection](https://arxiv.org/abs/1312.2177v2)
-  - A survey of machine learning techniques applied to intrusion detection.
-- **A Survey of Network Anomaly Detection Techniques** - [Network Anomaly Detection](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf)
-  - A comprehensive review of network anomaly detection methods.
-- **Deep Learning at the Shallow End: Malware Classification for Non-Domain Experts** - [Malware Classification](https://arxiv.org/abs/1807.08265v1)
-  - A paper discussing the use of deep learning techniques for malware classification.
+**Examples of ML techniques:**
+- Regression to predict network packet parameters and compare them with normal values.
+- Classification to identify different classes of network attacks.
+- Clustering for forensic analysis.
 
-### Books
-- **Artificial Intelligence in Cybersecurity** - [AI in Cybersecurity](https://www.springer.com/gp/book/9783030156547)
-  - Detailed exploration of AI applications in cybersecurity. The book covers both theoretical foundations and practical implementations of AI in various security contexts.
-- **Machine Learning and Security** - [Machine Learning and Security](https://www.oreilly.com/library/view/machine-learning-and/9781491979891/)
-  - A comprehensive guide to applying machine learning techniques in cybersecurity.
-- **Mastering Machine Learning for Penetration Testing** - [Mastering Machine Learning](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409)
-  - Practical insights into using machine learning for enhancing penetration testing efforts.
-- **Malware Data Science** - [Malware Data Science](https://nostarch.com/malwaredatascience)
-  - A guide to using data science techniques to understand, analyze, and detect malware.
-- **AI for Cybersecurity: A Handbook of Use Cases** - [AI Handbook](https://psucybersecuritylab.github.io/)
-  - A comprehensive collection of AI use cases in cybersecurity.
+**Research Papers:**
+- [Machine Learning Techniques for Intrusion Detection](https://arxiv.org/abs/1312.2177v2): A comprehensive survey on various ML techniques used for intrusion detection.
+- [A Survey of Network Anomaly Detection Techniques](https://www.gta.ufrj.br/~alvarenga/files/CPE826/Ahmed2016-Survey.pdf): Discusses various techniques and methods for detecting anomalies in network traffic.
+- [Shallow and Deep Networks Intrusion Detection System: A Taxonomy and Survey](https://arxiv.org/abs/1701.02145v1): A taxonomy and survey of shallow and deep learning techniques for intrusion detection.
+- [A Taxonomy and Survey of Intrusion Detection System Design Techniques, Network Threats and Datasets](https://arxiv.org/pdf/1806.03517v1.pdf): An in-depth review of IDS design techniques and relevant datasets.
 
-### Articles
-- **The Role of AI in Cybersecurity** - [AI in Cybersecurity](https://www.forbes.com/sites/forbestechcouncil/2020/01/10/the-role-of-artificial-intelligence-in-cybersecurity/)
-  - An article discussing various aspects of AI in cybersecurity. It highlights the benefits and challenges of using AI to enhance security measures.
+## 3. Endpoint Protection
+Machine learning applications for endpoint protection can vary depending on the type of endpoint.
+
+**Common tasks:**
+- Regression to predict the next system call for executable processes.
+- Classification to categorize programs into malware, spyware, or ransomware.
+- Clustering for malware detection on secure email gateways.
+
+**Research Papers:**
+- [Deep Learning at the Shallow End: Malware Classification for Non-Domain Experts](https://arxiv.org/abs/1807.08265v1): Discusses deep learning techniques for malware classification.
+- [Malware Detection by Eating a Whole EXE](https://arxiv.org/pdf/1710.09435v1.pdf): Presents a method for detecting malware by analyzing entire executable files.
+
+## 4. Application Security
+Machine learning can be applied to secure web applications, databases, ERP systems, and SaaS applications.
+
+**Examples:**
+- Regression to detect anomalies in HTTP requests.
+- Classification to identify known attack types.
+- Clustering user activity to detect DDOS attacks.
+
+**Research Papers:**
+- [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf): Proposes methods for detecting malicious web queries.
+
+## 5. User Behavior Analysis
+User behavior analysis involves detecting anomalies in user actions, which is often an unsupervised learning problem.
+
+**Tasks:**
+- Regression to detect anomalies in user actions.
+- Classification for peer-group analysis.
+- Clustering to identify outlier user groups.
+
+**Research Papers:**
+- [Detecting Anomalous User Behavior Using an Extended Isolation Forest Algorithm](https://arxiv.org/abs/1609.06676): Discusses an extended isolation forest algorithm for detecting anomalous user behavior.
+
+## 6. Process Behavior (Fraud Detection)
+Process behavior monitoring involves detecting anomalies in business processes to identify fraud.
+
+**Tasks:**
+- Regression to predict user actions and detect outliers.
+- Classification to identify known fraud types.
+- Clustering to compare business processes and detect outliers.
+
+**Research Papers:**
+- [A Survey of Credit Card Fraud Detection Techniques](https://arxiv.org/abs/1611.06439v1): A survey on various techniques for credit card fraud detection.
+- [Anomaly Detection in Industrial Control Systems Using CNNs](https://arxiv.org/abs/1806.08110v1): Discusses the use of convolutional neural networks for anomaly detection in industrial control systems.
+
+## 7. Intrusion Detection and Prevention Systems (IDS/IPS)
+IDS/IPS systems detect and prevent malicious network activities using machine learning to reduce false positives and improve accuracy.
+
+**Research Papers:**
+- [Next-Generation Intrusion Detection Systems](https://www.sciencedirect.com/science/article/abs/pii/S1574013716300153): Discusses advancements in intrusion detection systems.
+
+## 8. Books & Survey Papers
+### 8.1 Books
+- [AI for Cybersecurity by Cylance (2017)](https://www.blackberry.com/us/en/forms/cylance/gated-content/introduction-to-ai-book): An introduction to AI for cybersecurity by Cylance.
+- [Machine Learning and Security](https://www.oreilly.com/library/view/machine-learning-and/9781491979891/): Discusses the application of machine learning in security.
+- [Mastering Machine Learning for Penetration Testing](https://www.packtpub.com/product/mastering-machine-learning-for-penetration-testing/9781788997409): A guide on using machine learning for penetration testing.
+- [Malware Data Science](https://nostarch.com/malwaredatascience): Covers data science techniques for malware analysis.
+- [AI for Cybersecurity: A Handbook of Use Cases](https://psucybersecuritylab.github.io/): A handbook on various use cases of AI in cybersecurity.
+
+### 8.2 Survey Papers
+- [Deep Learning Algorithms for Cybersecurity Applications: A Technological and Status Review](https://www.sciencedirect.com/science/article/pii/S1574013720304172): Reviews the state of deep learning algorithms in cybersecurity applications.
+- [Machine Learning and Cybersecurity: Hype and Reality](https://cset.georgetown.edu/publication/machine-learning-and-cybersecurity/): Discusses the real-world applications and limitations of machine learning in cybersecurity.
+
+## 9. Offensive Tools and Frameworks
+### Generic Tools
+- **Malware Env for OpenAI Gym** - [Malware Env for OpenAI Gym](https://github.com/endgameinc/gym-malware): A platform for creating agents that manipulate PE files to achieve objectives like bypassing antivirus software.
+- **Deep-pwning** - [Deep-pwning](https://github.com/cchio/deep-pwning): A lightweight framework for evaluating machine learning model robustness against adversarial attacks.
+- **Counterfit** - [Counterfit](https://github.com/Azure/counterfit): An automation layer for assessing the security of machine learning systems.
+- **DeepFool** - [DeepFool](https://github.com/lts4/deepfool): A method to fool deep neural networks.
+- **garak** - [garak](https://github.com/leondz/garak/): A security probing tool for large language models (LLMs).
+- **Snaike-MLFlow** - [Snaike-MLflow](https://github.com/protectai/Snaike-MLflow): A suite of red team tools for MLflow.
+- **HackGPT** - [HackGPT](https://github.com/NoDataFound/hackGPT): A tool leveraging ChatGPT for hacking purposes.
+- **HackingBuddyGPT** - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT): An automated penetration tester.
+- **Charcuterie** - [Charcuterie](https://github.com/moohax/Charcuterie): Code execution techniques for machine learning libraries.
+
+### Adversarial Tools
+- **Exploring the Space of Adversarial Images** - [Exploring the Space of Adversarial Images](https://github.com/tabacof/adversarial): A tool to experiment with adversarial images.
+- **Adversarial Machine Learning Library (Ad-lib)** - [Adversarial Machine Learning Library (Ad-lib)](https://github.com/vu-aml/adlib): A game-theoretic library for adversarial machine learning.
+- **EasyEdit** - [EasyEdit](https://github.com/zjunlp/EasyEdit): A tool to modify the ground truths of large language models (LLMs).
+
+### Poisoning Tools
+- **BadDiffusion** - [BadDiffusion](https://github.com/IBM/BadDiffusion): Official repository to reproduce the paper "How to Backdoor Diffusion Models?" published at CVPR 2023.
+
+### Privacy Tools
+- **PrivacyRaven** - [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven): A privacy testing library for deep learning systems.
+
+## 10. Defensive Tools and Frameworks
+### Safety and Prevention
+- **Guardrail.ai** - [Guardrail.ai](https://shreyar.github.io/guardrails/): A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
+
+### Detection Tools
+- **ProtectAI's model scanner** - [ProtectAI's model scanner](https://github.com/protectai/model-scanner): A security scanner for detecting suspicious actions in serialized ML models.
+- **rebuff** - [rebuff](https://github.com/woop/rebuff): A prompt injection detector.
+- **langkit** - [langkit](https://github.com/whylabs/langkit): A toolkit for monitoring language models and detecting attacks.
+- **StringSifter** - [StringSifter](https://github.com/fireeye/stringsifter): A tool that ranks strings based on their relevance for malware analysis.
+
+### Privacy and Confidentiality
+- **Python Differential Privacy Library** - [Python Differential Privacy Library](https://github.com/OpenMined/PyDP): A library for implementing differential privacy.
+- **Diffprivlib** - [Diffprivlib](https://github.com/IBM/differential-privacy-library): IBM's differential privacy library.
+- **PLOT4ai** - [PLOT4ai](https://plot4.ai/): A threat modeling library for building responsible AI.
+- **TenSEAL** - [TenSEAL](https://github.com/OpenMined/TenSEAL): A library for performing homomorphic encryption operations on tensors.
+- **SyMPC** - [SyMPC](https://github.com/OpenMined/SyMPC): A secure multiparty computation library.
+- **PyVertical** - [PyVertical](https://github.com/OpenMined/PyVertical): Privacy-preserving vertical federated learning.
+- **Cloaked AI** - [Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/): Open source property-preserving encryption for vector embeddings.
+
+## 11. Resources for Learning
+- **MLSecOps podcast** - [MLSecOps podcast](https://mlsecops.com/podcast): A podcast dedicated to the intersection of machine learning and security operations.
+
+## 12. Uncategorized Useful Resources
+- **OWASP ML TOP 10** - [OWASP ML TOP 10](https://owasp.org/www-project-machine-learning-security-top-10/): The top 10 machine learning security risks identified by OWASP.
+- **OWASP LLM TOP 10** - [OWASP LLM TOP 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/): The top 10 security risks for large language models as identified by OWASP.
+- **OWASP AI Security and Privacy Guide** - [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/): A guide to securing AI systems and ensuring privacy.
+- **OWASP WrongSecrets LLM exercise** - [OWASP WrongSecrets LLM exercise](https://wrongsecrets.herokuapp.com/challenge/32): An exercise for testing AI model security.
+- **NIST AIRC** - [NIST AIRC](https://airc.nist.gov/Home): NIST Trustworthy & Responsible AI Resource Center.
+- **ENISA Multilayer Framework for Good Cybersecurity Practices for AI** - [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai): A framework for good cybersecurity practices in AI.
+- **The MLSecOps Top 10 by Institute for Ethical AI & Machine Learning** - [The MLSecOps Top 10](https://ethical.institute/security.html): Top 10 security practices for machine learning operations.
+
+## 13. Research Papers
+### Adversarial Examples and Attacks
+- [High Dimensional Spaces, Deep Learning and Adversarial Examples](https://arxiv.org/abs/1801.00634): Discusses the challenges of adversarial examples in high-dimensional spaces.
+- [Adversarial Task Allocation](https://arxiv.org/abs/1709.00358): Explores adversarial task allocation in machine learning systems.
+- [Robust Physical-World Attacks on Deep Learning Models](https://arxiv.org/abs/1707.08945): Examines physical-world attacks on deep learning models.
+- [The Space of Transferable Adversarial Examples](https://arxiv.org/abs/1704.03453): Discusses transferable adversarial examples in deep learning.
+- [RHMD: Evasion-Resilient Hardware Malware Detectors](http://www.cs.ucr.edu/~kkhas001/pubs/micro17-rhmd.pdf): Explores hardware-based malware detectors resilient to evasion.
+- [Generic Black-Box End-to-End Attack against RNNs and Other API Calls Based Malware Classifiers](https://arxiv.org/abs/1707.05970): Investigates black-box attacks on RNNs and malware classifiers.
+- [Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks](https://arxiv.org/abs/1701.04143): Examines policy induction attacks on deep reinforcement learning models.
+- [Can you fool AI with adversarial examples on a visual Turing test?](https://arxiv.org/abs/1709.08693): Tests the robustness of AI models using a visual Turing test.
+- [Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572): A foundational paper on adversarial examples in machine learning.
+- [Delving into Adversarial Attacks on Deep Policies](https://arxiv.org/abs/1705.06452): Analyzes adversarial attacks on deep policies.
+- [Crafting Adversarial Input Sequences for Recurrent Neural Networks](https://arxiv.org/abs/1604.08275): Discusses adversarial attacks on RNNs.
+- [Practical Black-Box Attacks against Machine Learning](https://arxiv.org/abs/1602.02697): Explores practical black-box attacks on machine learning models.
+- [Generating Adversarial Malware Examples for Black-Box Attacks Based on GAN](https://arxiv.org/abs/1702.05983): Uses GANs to generate adversarial malware examples.
+- [Data Driven Exploratory Attacks on Black Box Classifiers in Adversarial Domains](https://arxiv.org/abs/1703.07909): Explores data-driven attacks on black-box classifiers.
+- [Fast Feature Fool: A Data-Independent Approach to Universal Adversarial Perturbations](https://arxiv.org/abs/1707.05572v1): Proposes a method for creating universal adversarial perturbations.
+- [Simple Black-Box Adversarial Perturbations for Deep Networks](https://arxiv.org/abs/1612.06299): Discusses simple methods for black-box adversarial perturbations.
+- [Wild Patterns: Ten Years After the Rise of Adversarial Machine Learning](https://arxiv.org/abs/1712.03141): A retrospective on the evolution of adversarial machine learning.
+- [One Pixel Attack for Fooling Deep Neural Networks](https://arxiv.org/abs/1710.08864v1): Demonstrates how a single-pixel modification can fool deep neural networks.
+- [FedMLSecurity: A Benchmark for Attacks and Defenses in Federated Learning and LLMs](https://arxiv.org/abs/2306.04959): A benchmark for evaluating the security of federated learning and LLMs.
+- [Jailbroken: How Does LLM Safety Training Fail?](https://arxiv.org/abs/2307.02483): Analyzes the failure modes of LLM safety training.
+- [Bad Characters: Imperceptible NLP Attacks](https://arxiv.org/abs/2106.09898): Discusses imperceptible adversarial attacks on NLP models.
+- [Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043): Explores universal adversarial attacks on language models.
+- [Exploring the Vulnerability of Natural Language Processing Models via Universal Adversarial Texts](https://aclanthology.org/2021.alta-1.14/): Investigates the vulnerability of NLP models to adversarial texts.
+- [Adversarial Examples Are Not Bugs, They Are Features](https://arxiv.org/abs/1905.02175): Argues that adversarial examples are inherent features of models.
+- [Adversarial Attacks on Tables with Entity Swap](https://ceur-ws.org/Vol-3462/TADA4.pdf): Discusses adversarial attacks on tabular data.
+- [Here Comes the AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications](https://arxiv.org/abs/2403.02817): Explores zero-click worms targeting AI-powered applications.
+
+### Model Extraction
+- [Stealing Machine Learning Models via Prediction APIs](https://arxiv.org/abs/1609.02943): Discusses methods for extracting machine learning models via prediction APIs.
+- [On the Risks of Stealing the Decoding Algorithms of Language Models](https://arxiv.org/abs/2303.04729): Investigates the risks of extracting decoding algorithms from language models.
+
+### Evasion
+- [Adversarial Demonstration Attacks on Large Language Models](https://arxiv.org/abs/2305.14950): Explores evasion attacks on large language models.
+- [Looking at the Bag is not Enough to Find the Bomb: An Evasion of Structural Methods for Malicious PDF Files Detection](https://pralab.diee.unica.it/sites/default/files/maiorca_ASIACCS13.pdf): Discusses evasion of PDF malware detection methods.
+- [Adversarial Generative Nets: Neural Network Attacks on State-of-the-Art Face Recognition](https://arxiv.org/abs/1801.00349): Investigates adversarial attacks on face recognition models.
+- [Query Strategies for Evading Convex-Inducing Classifiers](https://people.eecs.berkeley.edu/~adj/publications/paper-files/1007-0484v1.pdf): Discusses query strategies for evading convex-inducing classifiers.
+- [Adversarial Prompting for Black Box Foundation Models](https://arxiv.org/abs/2302.04237): Explores adversarial prompting for foundation models.
+- [Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers](http://evademl.org/docs/evademl.pdf): Case study on evading PDF malware classifiers.
+- [Generic Black-Box End-to-End Attack against RNNs and Other API Calls Based Malware Classifiers](https://arxiv.org/abs/1707.05970): Investigates black-box attacks on RNNs and malware classifiers.
+- [Fast Feature Fool: A Data-Independent Approach to Universal Adversarial Perturbations](https://arxiv.org/abs/1707.05572v1): Proposes a method for creating universal adversarial perturbations.
+- [GPTs Don’t Keep Secrets: Searching for Backdoor Watermark Triggers in Autoregressive Language Models](https://aclanthology.org/2023.trustnlp-1.21/): Investigates backdoor triggers in autoregressive language models.
+
+### Poisoning
+- [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models](https://arxiv.org/abs/2305.14710): Discusses backdoor vulnerabilities in instruction-tuned language models.
+- [BadGPT: Exploring Security Vulnerabilities of ChatGPT via Backdoor Attacks to InstructGPT](https://arxiv.org/abs/2304.12298): Explores backdoor attacks on ChatGPT.
+- [Towards Poisoning of Deep Learning Algorithms with Back-Gradient Optimization](https://arxiv.org/abs/1708.08689): Proposes back-gradient optimization for poisoning deep learning algorithms.
+- [Efficient Label Contamination Attacks Against Black-Box Learning Models](https://www.ijcai.org/proceedings/2017/0551.pdf): Discusses efficient label contamination attacks on black-box models.
+- [Text-to-Image Diffusion Models Can be Easily Backdoored through Multimodal Data Poisoning](https://arxiv.org/abs/2305.04175): Explores backdooring diffusion models through data poisoning.
+- [UOR: Universal Backdoor Attacks on Pre-Trained Language Models](https://arxiv.org/abs/2305.09574): Discusses universal backdoor attacks on language models.
+- [Analyzing And Editing Inner Mechanisms of Backdoored Language Models](http://arxiv.org/abs/2302.12461): Investigates the inner mechanisms of backdoored language models.
+- [Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models](https://arxiv.org/abs/2305.14710): Discusses backdoor vulnerabilities in instruction-tuned language models.
+- [How to Backdoor Diffusion Models?](https://arxiv.org/abs/2212.05400): Explores methods for backdooring diffusion models.
+- [On the Exploitability of Instruction Tuning](https://arxiv.org/abs/2306.17194): Discusses the exploitability of instruction tuning.
+- [Defending against Insertion-based Textual Backdoor Attacks via Attribution](https://aclanthology.org/2023.findings-acl.561/): Proposes defenses against textual backdoor attacks.
+- [A Gradient Control Method for Backdoor Attacks on Parameter-Efficient Tuning](https://aclanthology.org/2023.acl-long.194/): Discusses gradient control methods for backdoor attacks.
+- [BadNL: Backdoor Attacks Against NLP Models with Semantic-Preserving Improvements](https://arxiv.org/abs/2006.01043): Explores semantic-preserving backdoor attacks on NLP models.
+- [Be Careful About Poisoned Word Embeddings: Exploring the Vulnerability of the Embedding Layers in NLP Models](https://arxiv.org/abs/2103.15543): Discusses the vulnerability of word embeddings to poisoning.
+- [BadPrompt: Backdoor Attacks on Continuous Prompts](https://arxiv.org/abs/2211.14719): Investigates backdoor attacks on continuous prompts.
+
+### Privacy
+- [Extracting Training Data from Diffusion Models](https://arxiv.org/abs/2301.13188): Discusses the extraction of training data from diffusion models.
+- [Prompt Stealing Attacks Against Text-to-Image Generation Models](https://arxiv.org/abs/2305.13873): Explores prompt stealing attacks on text-to-image generation models.
+- [Are Diffusion Models Vulnerable to Membership Inference Attacks?](https://arxiv.org/abs/2302.01316): Investigates the vulnerability of diffusion models to membership inference attacks.
+- [Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures](https://www.cs.cmu.edu/~mfredrik/papers/fjr2015ccs.pdf): Discusses model inversion attacks and countermeasures.
+- [Multi-Step Jailbreaking Privacy Attacks on ChatGPT](http://arxiv.org/abs/2304.05197): Explores multi-step jailbreaking privacy attacks on ChatGPT.
+- [Flocks of Stochastic Parrots: Differentially Private Prompt Learning for Large Language Models](https://arxiv.org/abs/2305.15594): Discusses differentially private prompt learning for language models.
+- [ProPILE: Probing Privacy Leakage in Large Language Models](https://arxiv.org/abs/2307.01881): Investigates privacy leakage in large language models.
+- [Sentence Embedding Leaks More Information than You Expect: Generative Embedding Inversion Attack to Recover the Whole Sentence](https://arxiv.org/pdf/2305.03010.pdf): Discusses embedding inversion attacks on sentence embeddings.
+- [Text Embeddings Reveal (Almost) As Much As Text](https://arxiv.org/pdf/2310.06816.pdf): Explores the information leakage of text embeddings.
+- [Vec2Face: Unveil Human Faces from Their Blackbox Features in Face Recognition](https://arxiv.org/pdf/2003.06958.pdf): Discusses the reconstruction of human faces from face recognition features.
+- [Realistic Face Reconstruction from Deep Embeddings](https://openreview.net/pdf?id=-WsBmzWwPee): Explores face reconstruction from deep embeddings.
+
+### Injection
+- [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896): Discusses backdoor attacks on deep learning models through neural payload injection.
+- [Black Box Adversarial Prompting for Foundation Models](https://arxiv.org/abs/2302.04237): Explores black-box adversarial prompting for foundation models.
+- [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173): Discusses indirect prompt injection attacks on LLM-integrated applications.
+- [Latent Jailbreak: A Benchmark for Evaluating Text Safety and Output Robustness of Large Language Models](https://arxiv.org/abs/2307.08487): Proposes a benchmark for evaluating the safety and robustness of large language models.
+- [Jailbreaker: Automated Jailbreak Across Multiple Large Language Model Chatbots](https://arxiv.org/abs/2307.08715): Discusses automated jailbreak attacks on multiple large language model chatbots.
+- [(Ab)using Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs](https://arxiv.org/abs/2307.10490): Explores indirect instruction injection using images and sounds in multi-modal LLMs.
+
+### Other Research Papers
+- [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739): Discusses the pursuit of exploitable bugs in machine learning.
+- [Automatically Evading Classifiers: A Case Study on PDF Malware Classifiers](http://evademl.org/docs/evademl.pdf): Case study on evading PDF malware classifiers.
+- [capAI - A Procedure for Conducting Conformity Assessment of AI Systems in Line with the EU Artificial Intelligence Act](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4064091): Proposes a procedure for AI system conformity assessment.
+- [A Study on Robustness and Reliability of Large Language Model Code Generation](https://arxiv.org/abs/2308.10335): Investigates the robustness and reliability of LLM code generation.
+- [Getting pwn'd by AI: Penetration Testing with Large Language Models](https://arxiv.org/abs/2308.00121): Explores penetration testing with large language models.
+- [Evaluating LLMs for Privilege-Escalation Scenarios](https://arxiv.org/abs/2310.11409): Evaluates LLMs for privilege-escalation scenarios.
 
 ## Contributing
 

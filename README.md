@@ -41,41 +41,81 @@ Additionally, AI applications can be divided by technical layers:
 
 ## Using AI for Pentesting
 
-### Tools
-- **Snort IDS** - [Snort IDS](https://www.snort.org/)
-  - An open-source network IDS and IPS capable of real-time traffic analysis and packet logging. Snort can leverage AI for anomaly detection and to enhance its pattern matching algorithms for better intrusion detection.
-- **Metasploit Framework** - [Metasploit](https://www.metasploit.com/)
-  - A tool for developing and executing exploit code against a remote target machine. AI can be used to automate the selection of exploits and optimize the attack vectors based on target vulnerabilities.
-- **Nmap** - [Nmap](https://nmap.org)
-  - A free and open-source network scanner used to discover hosts and services on a computer network. AI can enhance Nmap's capabilities by automating the analysis of scan results and suggesting potential security weaknesses.
-- **Burp Suite** - [Burp Suite](https://portswigger.net/burp)
-  - A leading range of cybersecurity tools, brought to you by PortSwigger. Burp Suite can integrate AI to automate vulnerability detection and improve the efficiency of web application security testing.
-- **Nikto** - [Nikto](https://github.com/sullo/nikto)
-  - An open-source web server scanner which performs comprehensive tests against web servers for multiple items. AI can help Nikto by automating the identification of complex vulnerabilities and enhancing detection accuracy.
-- **OpenVAS** - [OpenVAS](https://www.openvas.org/)
-  - An open-source vulnerability scanner and vulnerability management solution. AI can be used to improve the identification and prioritization of vulnerabilities based on their potential impact and likelihood of exploitation.
-- **OSSEC** - [OSSEC](https://www.ossec.net/)
-  - An open-source host-based intrusion detection system (HIDS). AI can enhance OSSEC by providing advanced anomaly detection and predictive analysis to identify potential threats before they materialize.
+### Prediction
+#### Network
 - **DeepExploit** - [DeepExploit](https://github.com/13o-bbr-bbq/machine_learning_security)
   - Fully automated penetration testing framework using Machine Learning. It uses reinforcement learning to improve its attack strategies over time.
+- [open-appsec](https://github.com/openappsec/openappsec) - open-appsec is an open source machine-learning security engine that preemptively and automatically prevents threats against Web Application & APIs.
+- 
+#### Malware
+- **OpenVAS** - [OpenVAS](https://www.openvas.org/)
+  - An open-source vulnerability scanner and vulnerability management solution. AI can be used to improve the identification and prioritization of vulnerabilities based on their potential impact and likelihood of exploitation.
+- **SEMA** - [SEMA](https://github.com/csvl/SEMA-ToolChain)
+  - ToolChain using Symbolic Execution for Malware Analysis. SEMA provides a framework for symbolic execution to extract execution traces and build system call dependency graphs (SCDGs). These graphs are used for malware classification and analysis, enabling the detection of malware based on symbolic execution and machine learning techniques.
+- [python] [Malware environment for OpenAI Gym](https://github.com/endgameinc/gym-malware): Create an AI that learns through reinforcement learning which functionality-preserving transformations to make on a malware sample to break through / bypass machine learning static-analysis malware detection.
+  
+### Prevention
+#### Network
+- **Snort IDS** - [Snort IDS](https://www.snort.org/)
+  - An open-source network IDS and IPS capable of real-time traffic analysis and packet logging. Snort can leverage AI for anomaly detection and to enhance its pattern matching algorithms for better intrusion detection.
+- **PANTHER** - [PANTHER](https://github.com/ElNiak/PANTHER)
+  - PANTHER combines advanced techniques in network protocol verification, integrating the Shadow network simulator with the Ivy formal verification tool. This framework allows for detailed examination of time properties in network protocols and identifies real-world implementation errors. It supports multiple protocols and can simulate advanced persistent threats (APTs) in network protocols.
 
-### Frameworks
+#### Endpoint
+- **OSSEC** - [OSSEC](https://www.ossec.net/)
+  - An open-source host-based intrusion detection system (HIDS). AI can enhance OSSEC by providing advanced anomaly detection and predictive analysis to identify potential threats before they materialize.
+
+### Detection
+#### Network
 - **Zeek Network Security Monitor** - [Zeek GitHub](https://github.com/zeek/zeek)
   - A powerful network analysis framework focused on security monitoring. AI can be integrated to analyze network traffic patterns and detect anomalies indicative of security threats.
 - **AIEngine** - [AIEngine GitHub](https://github.com/camp0/aiengine)
   - Next-generation interactive/programmable packet inspection engine with IDS functionality. AIEngine uses machine learning to improve packet inspection and anomaly detection, adapting to new threats over time.
+
+#### Endpoint
+- **Sophos Intercept X** - [Sophos Intercept X](https://www.sophos.com/en-us/products/intercept-x.aspx)
+  - Advanced endpoint protection combining traditional signature-based detection with AI-powered behavioral analysis to detect and prevent malware and ransomware attacks.
+- **MARK - Easy BigData Ranking** - [MARK](https://gitlab.cylab.be/cylab/mark)
+  - The multi-agent ranking framework (MARK) aims to provide all the building blocks required to build large-scale detection and ranking systems. It includes distributed storage suited for BigData applications, a web-based visualization and management interface, a distributed execution framework for detection algorithms, and an easy-to-configure triggering mechanism. This allows data scientists to focus on developing effective detection algorithms.
+
+### Response
+#### Network
+- **Metasploit Framework** - [Metasploit](https://www.metasploit.com/)
+  - A tool for developing and executing exploit code against a remote target machine. AI can be used to automate the selection of exploits and optimize the attack vectors based on target vulnerabilities.
+- **PentestGPT** - [PentestGPT](https://github.com/hackerai-tech/PentestGPT)
+  - PentestGPT provides advanced AI and integrated tools to help security teams conduct comprehensive penetration tests effortlessly. Scan, exploit, and analyze web applications, networks, and cloud environments with ease and precision, without needing expert skills.
+
+#### Endpoint
 - **Cortex** - [Cortex](https://github.com/TheHive-Project/Cortex)
   - A powerful and flexible observable analysis and active response engine. AI can be used in Cortex to automate the analysis of observables and enhance threat detection capabilities.
-- **MISP** - [MISP](https://www.misp-project.org/)
-  - Open source threat intelligence platform for gathering, sharing, storing and correlating Indicators of Compromise (IoCs). AI can enhance the efficiency of threat detection and response by automating data analysis and correlation.
 
+### Monitoring/Scanning
+#### Network
+- **Nmap** - [Nmap](https://nmap.org)
+  - A free and open-source network scanner used to discover hosts and services on a computer network. AI can enhance Nmap's capabilities by automating the analysis of scan results and suggesting potential security weaknesses.
+
+#### Endpoint
+- **Burp Suite** - [Burp Suite](https://portswigger.net/burp)
+  - A leading range of cybersecurity tools, brought to you by PortSwigger. Burp Suite can integrate AI to automate vulnerability detection and improve the efficiency of web application security testing.
+- **Nikto** - [Nikto](https://github.com/sullo/nikto)
+  - An open-source web server scanner which performs comprehensive tests against web servers for multiple items. AI can help Nikto by automating the identification of complex vulnerabilities and enhancing detection accuracy.
+
+#### User
+- **MISP** - [MISP](https://www.misp-project.org/)
+  - Open source threat intelligence platform for gathering, sharing, storing, and correlating Indicators of Compromise (IoCs). AI can enhance the efficiency of threat detection and response by automating data analysis and correlation.
+- [Scammer-List](https://scammerlist.now.sh/) - A free open source AI based Scam and Spam Finder with a free API
+- 
 ### Tutorials and Guides
-- **Offensive AI** - [Offensive AI and Cybersecurity](https://securityintelligence.com/news/offensive-ai-and-cybersecurity-the-good-the-bad-and-the-ugly/)
-  - A comprehensive guide on how AI can be used offensively in cybersecurity, discussing various scenarios and defensive measures. This guide explores the use of AI in automating attacks and evading traditional security measures.
-- **AI for Ethical Hacking** - [AI in Ethical Hacking](https://resources.infosecinstitute.com/topic/ai-in-ethical-hacking/)
-  - This guide covers the application of AI in ethical hacking, including how AI tools can enhance penetration testing efforts.
-- **AI-Powered Penetration Testing** - [AI-Powered Penetration Testing](https://www.cybersecurity-insiders.com/ai-powered-penetration-testing/)
-  - An overview of how AI can be utilized in penetration testing to improve efficiency and effectiveness.
+
+- [article] [Review: machine learning techniques applied to cybersecurity](https://link.springer.com/article/10.1007/s13042-018-00906-1)
+- [article] [Cybersecurity data science: an overview from machine learning perspective](https://link.springer.com/article/10.1186/s40537-020-00318-5)
+- [article] [Machine learning approaches to IoT security: A systematic literature review](https://www.sciencedirect.com/science/article/pii/S2542660521000093)
+- [sequence] [AI infosec: first strikes, zero-day markets, hardware supply chains, adoption barriers](https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/ai-infosec-first-strikes-zero-day-markets-hardware-supply)
+- [post] [AI Safety in a World of Vulnerable Machine Learning Systems](https://www.lesswrong.com/posts/ncsxcf8CkDveXBCrA/ai-safety-in-a-world-of-vulnerable-machine-learning-systems-1)
+
+#### Certifications
+- **IBM Cybersecurity Analyst Professional Certificate** - [IBM Cybersecurity Analyst](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_ibm-cybersecurity-analyst_ibm_ftcof_professional-certificates_arte_jan_24_dr_geo-multi_sem_rsa_gads_lg-all&campaignid=20963170017&adgroupid=159756465524&device=c&keyword=cybersecurity%20course&matchtype=p&network=g&devicemodel=&adposition=&creativeid=706156862048&hide_mobile_promo=&gad_source=1)
+  - Get ready to launch your career in cybersecurity. Build job-ready skills for an in-demand role in the field, no degree or prior experience required.
 
 ## Securing AI SaaS
 

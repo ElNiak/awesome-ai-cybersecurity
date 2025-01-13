@@ -138,6 +138,9 @@ Machine learning can be applied to secure web applications, databases, ERP syste
 **Research Papers:**
 - [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf) - Proposes methods for detecting malicious web queries.
 
+**LLMs:**
+- [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner 
+
 ### User Behavior Analysis
 User behavior analysis involves detecting anomalies in user actions, which is often an unsupervised learning problem.
 

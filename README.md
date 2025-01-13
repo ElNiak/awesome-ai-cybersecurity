@@ -1,10 +1,10 @@
-# Awesome AI in Cybersecurity
-
 <div align="center">
-<a href="https://awesome.re">
-  <img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
-</a>
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge-flat2.svg" alt="Awesome">
+  </a>
 </div>
+
+# Awesome AI in Cybersecurity
 
 Welcome to the ultimate list of resources for AI in cybersecurity. 
 This repository aims to provide an organized collection of high-quality resources to help professionals, researchers, and enthusiasts stay updated and advance their knowledge in the field.
@@ -143,7 +143,7 @@ Machine learning can be applied to secure web applications, databases, ERP syste
 - [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf) - Proposes methods for detecting malicious web queries.
 
 **LLMs:**
-- [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner 
+- [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner.
 
 ### User Behavior Analysis
 User behavior analysis involves detecting anomalies in user actions, which is often an unsupervised learning problem.

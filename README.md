@@ -32,8 +32,8 @@ Additionally, AI applications can be divided by technical layers:
 
 ### Prediction
 #### Network
-- [DeepExploit](https://github.com/13o-bbr-bbq/machine_learning_security) - Fully automated penetration testing framework using Machine Learning. It uses reinforcement learning to improve its attack strategies over time.
-- [open-appsec](https://github.com/openappsec/openappsec) - open-appsec is an open source machine-learning security engine that preemptively and automatically prevents threats against Web Application & APIs.
+- [DeepExploit](https://github.com/13o-bbr-bbq/machine_learning_security) - Fully automated penetration testing framework using machine learning. It uses reinforcement learning to improve its attack strategies over time.
+- [open-appsec](https://github.com/openappsec/openappsec) - Open-appsec is an open source machine-learning security engine that preemptively and automatically prevents threats against Web Application & APIs.
 
 #### Malware
 - [OpenVAS](https://www.openvas.org/) - An open-source vulnerability scanner and vulnerability management solution. AI can be used to improve the identification and prioritization of vulnerabilities based on their potential impact and likelihood of exploitation.

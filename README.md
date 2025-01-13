@@ -1,5 +1,6 @@
-# Awesome AI in Cybersecurity Resou
-[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# Awesome AI in Cybersecurity
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Welcome to the ultimate list of resources for AI in cybersecurity. 
 This repository aims to provide an organized collection of high-quality resources to help professionals, researchers, and enthusiasts stay updated and advance their knowledge in the field.
@@ -74,7 +75,7 @@ Additionally, AI applications can be divided by technical layers:
 
 #### User
 - [MISP](https://www.misp-project.org/) - Open source threat intelligence platform for gathering, sharing, storing, and correlating Indicators of Compromise (IoCs). AI can enhance the efficiency of threat detection and response by automating data analysis and correlation.
-- [Scammer-List](https://scammerlist.now.sh/) - A free open source AI based Scam and Spam Finder with a free API
+- [Scammer-List](https://scammerlist.now.sh/) - A free open source AI based Scam and Spam Finder with a free API.
 
 ### Tutorials and Guides
 
@@ -219,6 +220,8 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [PyVertical](https://github.com/OpenMined/PyVertical) - Privacy-preserving vertical federated learning.
 - [Cloaked AI](https://ironcorelabs.com/products/cloaked-ai/) - Open source property-preserving encryption for vector embeddings.
 
+## Theoretical Resources
+
 ### Resources for Learning
 - [MLSecOps podcast](https://mlsecops.com/podcast) - A podcast dedicated to the intersection of machine learning and security operations.
 
@@ -281,7 +284,6 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [Text-to-Image Diffusion Models Can be Easily Backdoored through Multimodal Data Poisoning](https://arxiv.org/abs/2305.04175) - Explores backdooring diffusion models through data poisoning.
 - [UOR - Universal Backdoor Attacks on Pre-Trained Language Models](https://arxiv.org/abs/2305.09574) - Discusses universal backdoor attacks on language models.
 - [Analyzing And Editing Inner Mechanisms of Backdoored Language Models](http://arxiv.org/abs/2302.12461) - Investigates the inner mechanisms of backdoored language models.
-- [Instructions as Backdoors - Backdoor Vulnerabilities of Instruction Tuning for Large Language Models](https://arxiv.org/abs/2305.14710) - Discusses backdoor vulnerabilities in instruction-tuned language models.
 - [How to Backdoor Diffusion Models?](https://arxiv.org/abs/2212.05400) - Explores methods for backdooring diffusion models.
 - [On the Exploitability of Instruction Tuning](https://arxiv.org/abs/2306.17194) - Discusses the exploitability of instruction tuning.
 - [Defending against Insertion-based Textual Backdoor Attacks via Attribution](https://aclanthology.org/2023.findings-acl.561/) - Proposes defenses against textual backdoor attacks.

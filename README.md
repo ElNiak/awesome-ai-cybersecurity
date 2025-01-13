@@ -1,25 +1,17 @@
 # Awesome AI in Cybersecurity Resources
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 Welcome to the ultimate list of resources for AI in cybersecurity. 
 This repository aims to provide an organized collection of high-quality resources to help professionals, researchers, and enthusiasts stay updated and advance their knowledge in the field.
 
+## Contents
+
 - [Awesome AI in Cybersecurity](#awesome-ai-in-cybersecurity)
   - [Introduction](#introduction)
   - [Using AI for Pentesting](#using-ai-for-pentesting)
-    - [Tools](#tools)
-    - [Frameworks](#frameworks)
-    - [Tutorials and Guides](#tutorials-and-guides)
   - [Securing AI SaaS](#securing-ai-saas)
-    - [Best Practices](#best-practices)
-    - [Case Studies](#case-studies)
-    - [Tools](#tools)
   - [Theoretical Resources](#theoretical-resources)
-    - [Research Papers](#research-papers)
-    - [Books](#books)
-    - [Articles](#articles)
-  - [Contributing](#contributing)
 
 ## Introduction
 

@@ -213,6 +213,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [Guardrail.ai](https://shreyar.github.io/guardrails/) - A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
 
 #### Detection Tools
+- [CircleGuardBench](https://github.com/whitecircle-ai/circle-guard-bench) - A full-fledged benchmark for evaluating protection capabilities of AI models.
 - [ProtectAI's model scanner](https://github.com/protectai/model-scanner) - A security scanner for detecting suspicious actions in serialized ML models.
 - [rebuff](https://github.com/woop/rebuff) - A prompt injection detector.
 - [langkit](https://github.com/whylabs/langkit) - A toolkit for monitoring language models and detecting attacks.

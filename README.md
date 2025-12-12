@@ -144,6 +144,7 @@ Machine learning can be applied to secure web applications, databases, ERP syste
 
 **LLMs:**
 - [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner.
+- [promptfoo](https://github.com/promptfoo/promptfoo) - Open-source LLM red teaming and vulnerability scanner. 100+ attack types, 250k+ users.
 
 ### User Behavior Analysis
 User behavior analysis involves detecting anomalies in user actions, which is often an unsupervised learning problem.
@@ -192,6 +193,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [Counterfit](https://github.com/Azure/counterfit) - An automation layer for assessing the security of machine learning systems.
 - [DeepFool](https://github.com/lts4/deepfool) - A method to fool deep neural networks.
 - [garak](https://github.com/leondz/garak/) - A security probing tool for large language models (LLMs).
+- [promptfoo](https://github.com/promptfoo/promptfoo) - Open-source LLM red teaming with adaptive multi-turn attacks, prompt injection, and jailbreak testing.
 - [Snaike-MLflow](https://github.com/protectai/Snaike-MLflow) - A suite of red team tools for MLflow.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - A tool leveraging ChatGPT for hacking purposes.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - An automated penetration tester.

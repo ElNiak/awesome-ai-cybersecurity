@@ -104,6 +104,7 @@ Additionally, AI applications can be divided by technical layers:
 ### Tools
 - [IBM Watson](https://www.ibm.com/security/artificial-intelligence) - Tools and solutions for securing AI applications. Watson uses AI to analyze vast amounts of security data and identify potential threats, providing actionable insights for cybersecurity professionals.
 - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/) - Comprehensive security management system for cloud environments. AI and machine learning are used to identify threats and vulnerabilities in real-time.
+- [OneCLI](https://github.com/onecli/onecli) - Open-source credential vault for AI agents. Rust HTTP gateway intercepts agent requests and injects API credentials transparently, preventing key exfiltration via prompt injection.
 
 ### Network Protection
 Machine learning in network security focuses on Network Traffic Analytics (NTA) to analyze traffic and detect anomalies and attacks.

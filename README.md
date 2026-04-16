@@ -217,6 +217,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 
 #### Detection Tools
 - [CircleGuardBench](https://github.com/whitecircle-ai/circle-guard-bench) - A full-fledged benchmark for evaluating protection capabilities of AI models.
+- [SecLens](https://github.com/mattersec-labs/seclens) - A benchmark for evaluating LLMs on security vulnerability detection using real CVEs, covering 406 tasks across 5 stakeholder lenses and 35 scoring dimensions. [Paper](https://arxiv.org/abs/2604.01637).
 - [ProtectAI's model scanner](https://github.com/protectai/model-scanner) - A security scanner for detecting suspicious actions in serialized ML models.
 - [rebuff](https://github.com/woop/rebuff) - A prompt injection detector.
 - [langkit](https://github.com/whylabs/langkit) - A toolkit for monitoring language models and detecting attacks.

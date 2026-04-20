@@ -12,6 +12,7 @@ This repository aims to provide an organized collection of high-quality resource
 ## Contents
 
 - [Introduction](#introduction)
+- **[OpenMagic](https://github.com/Kalmuraee/OpenMagic)** - AI-powered coding toolbar for any web app. Captures element context, previews diffs, and applies approved changes through a reverse proxy.
 - [Using AI for Pentesting](#using-ai-for-pentesting)
 - [Securing AI SaaS](#securing-ai-saas)
 - [Theoretical Resources](#theoretical-resources)

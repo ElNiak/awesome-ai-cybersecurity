@@ -88,6 +88,7 @@ Additionally, AI applications can be divided by technical layers:
 - [Machine learning approaches to IoT security - A systematic literature review](https://www.sciencedirect.com/science/article/pii/S2542660521000093)
 - [AI infosec - first strikes, zero-day markets, hardware supply chains, adoption barriers](https://www.lesswrong.com/posts/kvk2ZorXui4YB4zvc/ai-infosec-first-strikes-zero-day-markets-hardware-supply)
 - [AI Safety in a World of Vulnerable Machine Learning Systems](https://www.lesswrong.com/posts/ncsxcf8CkDveXBCrA/ai-safety-in-a-world-of-vulnerable-machine-learning-systems-1)
+- [PromptTrace](https://prompttrace.airedlab.com) - Free hands-on AI security training platform. Practice prompt injection, RAG poisoning, and tool exploitation against real LLMs with full prompt stack visibility. Includes 10 labs, a 15-level CTF (The Gauntlet), and 9 learning modules aligned with OWASP Top 10 for LLMs.
 
 #### Certifications
 - [IBM Cybersecurity Analyst](https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst?utm_medium=sem&utm_source=gg&utm_campaign=b2c_emea_ibm-cybersecurity-analyst_ibm_ftcof_professional-certificates_arte_jan_24_dr_geo-multi_sem_rsa_gads_lg-all&campaignid=20963170017&adgroupid=159756465524&device=c&keyword=cybersecurity%20course&matchtype=p&network=g&devicemodel=&adposition=&creativeid=706156862048&hide_mobile_promo=&gad_source=1) - Get ready to launch your career in cybersecurity. Build job-ready skills for an in-demand role in the field, no degree or prior experience required.

@@ -215,6 +215,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 #### Safety and Prevention
 - [Guardrail.ai](https://shreyar.github.io/guardrails/) - A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - On-chain behavioral trust scoring MCP server for AI cybersecurity agents on Solana. Verify AI agent wallet identity before granting access to sensitive security systems. Provides cryptographic compliance receipts for AI agent actions. Free MCP: `{"mcpServers":{"twzrd-agent-intel":{"url":"https://intel.twzrd.xyz/mcp"}}}`
 #### Detection Tools
 - [CircleGuardBench](https://github.com/whitecircle-ai/circle-guard-bench) - A full-fledged benchmark for evaluating protection capabilities of AI models.
 - [SecLens](https://github.com/mattersec-labs/seclens) - A benchmark for evaluating LLMs on security vulnerability detection using real CVEs, covering 406 tasks across 5 stakeholder lenses and 35 scoring dimensions. [Paper](https://arxiv.org/abs/2604.01637).

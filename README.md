@@ -36,6 +36,7 @@ Additionally, AI applications can be divided by technical layers:
 
 ### Prediction
 #### Network
+- [Continuous CyberBattleSim](https://github.com/terranovafr/C-CyberBattleSim) - A simulation tool for training and evaluating scalable and generalizable reinforcement learning agents for critical attack path discovery in networks ([paper](https://ieeexplore.ieee.org/document/11352493))
 - [DeepExploit](https://github.com/13o-bbr-bbq/machine_learning_security) - Fully automated penetration testing framework using machine learning. It uses reinforcement learning to improve its attack strategies over time.
 - [open-appsec](https://github.com/openappsec/openappsec) - Open-appsec is an open source machine-learning security engine that preemptively and automatically prevents threats against Web Application & APIs.
 
@@ -144,6 +145,7 @@ Machine learning can be applied to secure web applications, databases, ERP syste
 - [Adaptively Detecting Malicious Queries in Web Attacks](https://arxiv.org/pdf/1701.07774.pdf) - Proposes methods for detecting malicious web queries.
 
 **LLMs:**
+- [CVE-LMTune](https://github.com/terranovafr/CVE-LMTune) - A unified framework for fine-tuning, evaluation, and live inference of language models for automated vulnerability classification based on MITRE taxonomies ([paper](https://hal.science/hal-05500820))
 - [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner.
 - [promptfoo](https://github.com/promptfoo/promptfoo) - Open-source LLM red teaming and vulnerability scanner. 100+ attack types, 250k+ users.
 

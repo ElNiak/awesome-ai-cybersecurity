@@ -201,6 +201,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [Snaike-MLflow](https://github.com/protectai/Snaike-MLflow) - A suite of red team tools for MLflow.
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - A tool leveraging ChatGPT for hacking purposes.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - An automated penetration tester.
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - An open source engine for autonomous AI penetration testing that orchestrates 80+ offensive tools through Markdown playbooks and agentic reasoning over MCP, with a command and raw output evidence trail for every finding across web, cloud, Active Directory, Kubernetes and API.
 - [Charcuterie](https://github.com/moohax/Charcuterie) - Code execution techniques for machine learning libraries.
 
 ### Adversarial Tools

@@ -226,6 +226,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [rebuff](https://github.com/woop/rebuff) - A prompt injection detector.
 - [langkit](https://github.com/whylabs/langkit) - A toolkit for monitoring language models and detecting attacks.
 - [StringSifter](https://github.com/fireeye/stringsifter) - A tool that ranks strings based on their relevance for malware analysis.
+- [Agent Threat Rules (ATR)](https://github.com/Agent-Threat-Rule/agent-threat-rules) - An open MIT-licensed detection-rule standard for AI agent threats (prompt injection, tool poisoning, MCP attacks, context exfiltration) across 10 categories, with MITRE ATLAS and OWASP crosswalks.
 
 #### Privacy and Confidentiality
 - [Python Differential Privacy Library](https://github.com/OpenMined/PyDP) - A library for implementing differential privacy.

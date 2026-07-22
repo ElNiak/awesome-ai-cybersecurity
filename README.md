@@ -334,3 +334,6 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [A Study on Robustness and Reliability of Large Language Model Code Generation](https://arxiv.org/abs/2308.10335) - Investigates the robustness and reliability of LLM code generation.
 - [Getting pwn'd by AI - Penetration Testing with Large Language Models](https://arxiv.org/abs/2308.00121) - Explores penetration testing with large language models.
 - [Evaluating LLMs for Privilege-Escalation Scenarios](https://arxiv.org/abs/2310.11409) - Evaluates LLMs for privilege-escalation scenarios.
+
+#### AI Security Interview Resources
+- [Moderm Security](https://www.modernsecurity.io/pages/blog?p=ai-security-interview) - Interview questions around AI and Security intersection

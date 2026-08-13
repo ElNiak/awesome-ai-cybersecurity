@@ -202,6 +202,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [HackGPT](https://github.com/NoDataFound/hackGPT) - A tool leveraging ChatGPT for hacking purposes.
 - [HackingBuddyGPT](https://github.com/ipa-lab/hackingBuddyGPT) - An automated penetration tester.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - An open source engine for autonomous AI penetration testing that orchestrates 80+ offensive tools through Markdown playbooks and agentic reasoning over MCP, with a command and raw output evidence trail for every finding across web, cloud, Active Directory, Kubernetes and API.
+- [HunterX](https://github.com/nullc0d30/HunterX) - An open source AI-assisted vulnerability discovery, validation, and proof engine for security testing and red-team workflows.
 - [Charcuterie](https://github.com/moohax/Charcuterie) - Code execution techniques for machine learning libraries.
 
 ### Adversarial Tools

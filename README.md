@@ -57,6 +57,7 @@ Additionally, AI applications can be divided by technical layers:
 #### Network
 - [Zeek](https://github.com/zeek/zeek) - A powerful network analysis framework focused on security monitoring. AI can be integrated to analyze network traffic patterns and detect anomalies indicative of security threats.
 - [AIEngine](https://github.com/camp0/aiengine) - Next-generation interactive/programmable packet inspection engine with IDS functionality. AIEngine uses machine learning to improve packet inspection and anomaly detection, adapting to new threats over time.
+- [Security Anomaly ML](https://github.com/ibondarenko1/security-anomaly-ml) - Open-source ML network-flow detector that converts CICFlowMeter-compatible traffic into deterministic analyst-facing security incidents. Ships with a frozen temporally validated model, CLI, Docker, and reproducible real-model CI.
 
 #### Endpoint
 - [Sophos Intercept X](https://www.sophos.com/en-us/products/intercept-x.aspx) - Advanced endpoint protection combining traditional signature-based detection with AI-powered behavioral analysis to detect and prevent malware and ransomware attacks.
@@ -132,7 +133,7 @@ Machine learning applications for endpoint protection can vary depending on the 
 
 **Research Papers:**
 - [Deep Learning at the Shallow End - Malware Classification for Non-Domain Experts](https://arxiv.org/abs/1807.08265v1) - Discusses deep learning techniques for malware classification.
-- [Malware Detection by Eating a Whole EXE](https://arxiv.org/pdf/1710.09435v1.pdf) - Presents a method for detecting malware by analyzing entire executable files.
+- [Malware Detection by Eating a Whole EXE](https://arxiv.org/pdf/1710.09435v1) - Presents a method for detecting malware by analyzing entire executable files.
 
 ### Application Security
 Machine learning can be applied to secure web applications, databases, ERP systems, and SaaS applications.

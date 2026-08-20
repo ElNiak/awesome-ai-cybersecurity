@@ -133,7 +133,7 @@ Machine learning applications for endpoint protection can vary depending on the 
 
 **Research Papers:**
 - [Deep Learning at the Shallow End - Malware Classification for Non-Domain Experts](https://arxiv.org/abs/1807.08265v1) - Discusses deep learning techniques for malware classification.
-- [Malware Detection by Eating a Whole EXE](https://arxiv.org/pdf/1710.09435v1) - Presents a method for detecting malware by analyzing entire executable files.
+- [Malware Detection by Eating a Whole EXE](https://arxiv.org/pdf/1710.09435v1.pdf) - Presents a method for detecting malware by analyzing entire executable files.
 
 ### Application Security
 Machine learning can be applied to secure web applications, databases, ERP systems, and SaaS applications.

@@ -222,6 +222,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 ### Defensive Tools and Frameworks
 #### Safety and Prevention
 - [Guardrail.ai](https://shreyar.github.io/guardrails/) - A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
+- [writ](https://github.com/writ-agent/writ) - Authorization and provenance for AI agents: every tool call is checked against a policy file before it runs and recorded in a hash-chained, tamper-evident ledger.
 
 #### Detection Tools
 - [CircleGuardBench](https://github.com/whitecircle-ai/circle-guard-bench) - A full-fledged benchmark for evaluating protection capabilities of AI models.

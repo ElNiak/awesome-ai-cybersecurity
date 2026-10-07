@@ -103,6 +103,7 @@ Additionally, AI applications can be divided by technical layers:
 ### Case Studies
 - [Microsoft AI Security](https://www.microsoft.com/en-us/security/ai) - Case studies on securing AI applications in SaaS environments. These case studies demonstrate how AI can be used to enhance security and protect against evolving threats.
 - [Google AI Security](https://cloud.google.com/security/ai) - Insights and case studies from Google on how to secure AI applications in the cloud.
+- [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) - Open database of real-world AI agent security incidents (prompt injection, agent supply chain, MCP, agent-framework CVEs, agents used offensively). Every record has a primary source and flags whether there was a confirmed victim and whether AI involvement is confirmed.
 
 ### Tools
 - [IBM Watson](https://www.ibm.com/security/artificial-intelligence) - Tools and solutions for securing AI applications. Watson uses AI to analyze vast amounts of security data and identify potential threats, providing actionable insights for cybersecurity professionals.

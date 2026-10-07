@@ -207,6 +207,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [HunterX](https://github.com/nullc0d30/HunterX) - An open source AI-assisted vulnerability discovery, validation, and proof engine for security testing and red-team workflows.
 - [BugTraceAI](https://github.com/BugTraceAI/BugTraceAI) - Open-source multi-agent platform for authorized web application security testing with validation, evidence capture, and reporting.
 - [Charcuterie](https://github.com/moohax/Charcuterie) - Code execution techniques for machine learning libraries.
+- [rust-in-peace](https://github.com/scadastrangelove/rust-in-peace) - Agent-assisted vulnerability research for Rust with adversarial triage, dynamic verification, and an experimental Android APK analysis profile.
 
 ### Adversarial Tools
 - [Exploring the Space of Adversarial Images](https://github.com/tabacof/adversarial) - A tool to experiment with adversarial images.

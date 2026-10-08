@@ -224,6 +224,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 #### Safety and Prevention
 - [Guardrail.ai](https://shreyar.github.io/guardrails/) - A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
 - [jes](https://github.com/everafterlabs/jes) - Guardrails for AI agents that check prompts, retrieved content, tool calls and responses for prompt injection and jailbreaks using decision models such as Jev, and redact secrets and PII locally.
+- [Tale](https://github.com/tale-project/tale) - Shared workspace for people and AI agents, with organization policy controls for reviewing configured connector writes before execution and audit logs that record approval decisions and actors.
 
 #### Detection Tools
 - [CircleGuardBench](https://github.com/whitecircle-ai/circle-guard-bench) - A full-fledged benchmark for evaluating protection capabilities of AI models.

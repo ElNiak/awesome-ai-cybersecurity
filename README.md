@@ -232,6 +232,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [rebuff](https://github.com/woop/rebuff) - A prompt injection detector.
 - [langkit](https://github.com/whylabs/langkit) - A toolkit for monitoring language models and detecting attacks.
 - [StringSifter](https://github.com/fireeye/stringsifter) - A tool that ranks strings based on their relevance for malware analysis.
+- [Ironheights](https://github.com/Frank-Masciopinto/ironheights) - A static scanner that detects prompt injection, credential reads and persistence in AI agent skills before install.
 
 #### Privacy and Confidentiality
 - [Python Differential Privacy Library](https://github.com/OpenMined/PyDP) - A library for implementing differential privacy.

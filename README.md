@@ -219,6 +219,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 
 ### Privacy Tools
 - [PrivacyRaven](https://github.com/trailofbits/PrivacyRaven) - A privacy testing library for deep learning systems.
+- [AgentLeak](https://github.com/Privatris/AgentLeak) - Open-source privacy-leakage benchmark for multi-agent LLM systems (IEEE Access 2026): 7 internal communication pathways, 1,000 scenarios, 4,979 validated traces; 68.8% inter-agent leakage vs 27.2% in final outputs.
 
 ### Defensive Tools and Frameworks
 #### Safety and Prevention

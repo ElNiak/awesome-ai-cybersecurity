@@ -255,6 +255,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [NIST AIRC](https://airc.nist.gov/Home) - NIST Trustworthy & Responsible AI Resource Center.
 - [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai) - A framework for good cybersecurity practices in AI.
 - [The MLSecOps Top 10](https://ethical.institute/security.html) - Top 10 security practices for machine learning operations.
+- [VibeVulns](https://vibevulns.com) - Free, open tracker of security advisories and malicious packages in AI coding tools, agent frameworks and MCP servers, with a plain-language check and fix for each.
 
 ### Research Papers
 #### Adversarial Examples and Attacks

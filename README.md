@@ -108,7 +108,7 @@ Additionally, AI applications can be divided by technical layers:
 - [IBM Watson](https://www.ibm.com/security/artificial-intelligence) - Tools and solutions for securing AI applications. Watson uses AI to analyze vast amounts of security data and identify potential threats, providing actionable insights for cybersecurity professionals.
 - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/) - Comprehensive security management system for cloud environments. AI and machine learning are used to identify threats and vulnerabilities in real-time.
 - [OneCLI](https://github.com/onecli/onecli) - Open-source credential vault for AI agents. Rust HTTP gateway intercepts agent requests and injects API credentials transparently, preventing key exfiltration via prompt injection.
-- [Speakeasy](https://www.speakeasy.com/) - MCP gateway for controlling agent access to tools through identity-based permissions, per-action security policies, and audit logs.
+- [Speakeasy control plane](https://github.com/speakeasy-api/gram) - MCP gateway for controlling agent access to tools through identity-based permissions, per-action security policies, and audit logs.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
 
 ### Network Protection

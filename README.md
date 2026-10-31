@@ -152,6 +152,7 @@ Machine learning can be applied to secure web applications, databases, ERP syste
 - [CVE-LMTune](https://github.com/terranovafr/CVE-LMTune) - A unified framework for fine-tuning, evaluation, and live inference of language models for automated vulnerability classification based on MITRE taxonomies ([paper](https://hal.science/hal-05500820))
 - [garak](https://github.com/NVIDIA/garak) - NVIDIA  LLM vulnerability scanner.
 - [promptfoo](https://github.com/promptfoo/promptfoo) - Open-source LLM red teaming and vulnerability scanner. 100+ attack types, 250k+ users.
+- [agent-preship-guard](https://github.com/elaysuu/agent-preship-guard) - GitHub Action with heuristic static checks for LLM agent code (prompt injection paths, unsafe tool calls) before shipping.
 
 ### User Behavior Analysis
 User behavior analysis involves detecting anomalies in user actions, which is often an unsupervised learning problem.

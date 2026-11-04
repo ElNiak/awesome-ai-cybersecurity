@@ -210,6 +210,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [Charcuterie](https://github.com/moohax/Charcuterie) - Code execution techniques for machine learning libraries.
 - [rust-in-peace](https://github.com/scadastrangelove/rust-in-peace) - Agent-assisted vulnerability research for Rust with adversarial triage, dynamic verification, and an experimental Android APK analysis profile.
 - [RedAmon](https://github.com/samugit83/redamon) - An open source, self-hosted AI penetration testing framework that maps the attack surface into a graph, exploits it from a Kali sandbox with human approval gates, and opens pull requests that fix what it finds.
+- [pwner](https://github.com/0x45dd/pwner) - An agentic network penetration testing CLI driven by a local or remote LLM, wrapping nmap, nuclei, impacket, netexec and kerbrute as scope-checked tool calls with operator approval gates on intrusive actions.
 
 ### Adversarial Tools
 - [Exploring the Space of Adversarial Images](https://github.com/tabacof/adversarial) - A tool to experiment with adversarial images.

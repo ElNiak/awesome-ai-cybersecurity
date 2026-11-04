@@ -225,6 +225,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 
 ### Defensive Tools and Frameworks
 #### Safety and Prevention
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Open-source runtime security for supported AI coding agents, enforcing local approval or blocking policies for risky tool actions before execution.
 - [Guardrail.ai](https://shreyar.github.io/guardrails/) - A Python package to add structure, type, and quality guarantees to the outputs of large language models (LLMs).
 - [jes](https://github.com/everafterlabs/jes) - Guardrails for AI agents that check prompts, retrieved content, tool calls and responses for prompt injection and jailbreaks using decision models such as Jev, and redact secrets and PII locally.
 

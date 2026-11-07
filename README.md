@@ -82,6 +82,7 @@ Additionally, AI applications can be divided by technical layers:
 #### User
 - [MISP](https://www.misp-project.org/) - Open source threat intelligence platform for gathering, sharing, storing, and correlating Indicators of Compromise (IoCs). AI can enhance the efficiency of threat detection and response by automating data analysis and correlation.
 - [ZettelForge](https://github.com/rolandpg/zettelforge) - CTI agentic memory system with entity extraction (CVEs, threat actors, IOCs, MITRE ATT&CK), knowledge graph with alias resolution, STIX 2.1 ontology, intent-classified retrieval, and MCP server for AI agent integration. Offline, MIT licensed.
+- [ICHI MCP Server](https://github.com/bernik-bot/ichi-mcp) - Free, keyless MCP server that gives AI agents real-time internet cyber-health context: current threat band (NORMAL–CRITICAL), hourly score (0–100), per-dimension breakdown, and critical advisory feed. Outside-in directional signal for calibrating AI-assisted security decisions.
 - [Scammer-List](https://scammerlist.now.sh/) - A free open source AI based Scam and Spam Finder with a free API.
 
 ### Tutorials and Guides

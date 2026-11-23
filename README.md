@@ -110,6 +110,7 @@ Additionally, AI applications can be divided by technical layers:
 - [Azure Security Center](https://azure.microsoft.com/en-us/services/security-center/) - Comprehensive security management system for cloud environments. AI and machine learning are used to identify threats and vulnerabilities in real-time.
 - [OneCLI](https://github.com/onecli/onecli) - Open-source credential vault for AI agents. Rust HTTP gateway intercepts agent requests and injects API credentials transparently, preventing key exfiltration via prompt injection.
 - [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - Independent X (Twitter) data API for search, follower export, monitors, and MCP.
+- [VibeShield](https://vibe-checker.appwrite.network/) - Free zero-login passive 116-check security scanner for AI-built SaaS apps (52 JS secret rules, 10 Observatory headers, Supabase/Firebase probes), paired with the open-source MIT [vibe-security-checklist](https://github.com/zColdWater/vibe-security-checklist).
 
 ### Network Protection
 Machine learning in network security focuses on Network Traffic Analytics (NTA) to analyze traffic and detect anomalies and attacks.

@@ -74,6 +74,7 @@ Additionally, AI applications can be divided by technical layers:
 ### Monitoring/Scanning
 #### Network
 - [Nmap](https://nmap.org) - A free and open-source network scanner used to discover hosts and services on a computer network. AI can enhance Nmap's capabilities by automating the analysis of scan results and suggesting potential security weaknesses.
+- [iotaudit](https://github.com/emirmrkaljevic/iotaudit) - Audits your own smart home devices from their network traffic: who each device talks to, plaintext vs TLS, open ports, and an A to F grade with an HTML report. Includes a local MCP server so an AI assistant can run the audits and explain the findings. Runs locally, MIT licensed.
 
 #### Endpoint
 - [Burp Suite](https://portswigger.net/burp) - A leading range of cybersecurity tools, brought to you by PortSwigger. Burp Suite can integrate AI to automate vulnerability detection and improve the efficiency of web application security testing.

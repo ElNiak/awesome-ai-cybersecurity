@@ -259,6 +259,7 @@ IDS/IPS systems detect and prevent malicious network activities using machine le
 - [ENISA Multilayer Framework for Good Cybersecurity Practices for AI](https://www.enisa.europa.eu/publications/multilayer-framework-for-good-cybersecurity-practices-for-ai) - A framework for good cybersecurity practices in AI.
 - [The MLSecOps Top 10](https://ethical.institute/security.html) - Top 10 security practices for machine learning operations.
 - [VibeVulns](https://vibevulns.com) - Free, open tracker of security advisories and malicious packages in AI coding tools, agent frameworks and MCP servers, with a plain-language check and fix for each.
+- [Awesome Security Agent Harnesses](https://github.com/Ed-Marcavage/awesome-security-agent-harnesses) - A curated list of open source AI pentesting tools, AI SOC agents, purple team harnesses, and agent harnesses for code audit, fuzzing and reverse engineering.
 
 ### Research Papers
 #### Adversarial Examples and Attacks
